@@ -18,7 +18,9 @@
 (defn day1 []
 	(let [steps (slurp "../data/day1.txt")]
 		(do
+			(println "******  Day 1 *******")
 			(println "Santa ends up at floor" (final-floor steps))
-			(println "Santa enters the basement in step" (index-of-basement-step steps)))))
+			(println "Santa enters the basement in step" (index-of-basement-step steps))
+			(println ))))
 
 
