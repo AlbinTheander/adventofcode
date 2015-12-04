@@ -1,3 +1,12 @@
+import fs from 'fs';
+
+export default function day1() {
+	var data = fs.readFileSync('../data/day2.txt', 'utf-8');
+	console.log('**** Day 2 *****');
+	console.log('The elves need', getPaper(data), 'square feet of paper.');
+	console.log('They also need', getRibbon(data), 'feet of ribbon.');
+	console.log();
+}
 
 export function getPaper(boxes) {
 	return boxes.split('\n')

@@ -1,3 +1,4 @@
+import fs from 'fs';
 
 export function finalFloor(s) {
 	return s.split('').
@@ -15,3 +16,10 @@ export function firstTimeInBasement(s) {
 	return step;
 }
 
+export default function day1() {
+	var data = fs.readFileSync('../data/day1.txt', 'utf-8');
+	console.log('**** Day 1 *****');
+	console.log('Santa ends up on floor', finalFloor(data));
+	console.log('He first enters the basement on step', firstTimeInBasement(data));
+	console.log();
+}

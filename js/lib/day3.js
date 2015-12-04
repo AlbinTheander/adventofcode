@@ -1,3 +1,13 @@
+import fs from 'fs';
+
+export default function day3() {
+	var data = fs.readFileSync('../data/day3.txt', 'utf-8');
+	console.log('**** Day 3 *****');
+	console.log('Santa delivers to ', countHouses(data), 'houses.');
+	console.log('Together with Robo-Santa, they deliver to', countHouses(data, 2), 'houses.');
+	console.log();
+}
+
 
 export function countHouses(path, nrOfSantas=1) {
 	const houses = new Set();
