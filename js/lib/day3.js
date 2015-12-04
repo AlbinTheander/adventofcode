@@ -1,6 +1,6 @@
 
 export function countHouses(path, nrOfSantas=1) {
-	const houses = new Set()
+	const houses = new Set();
 	const addHouseAt = (x,y) => houses.add(x + '-' + y);
 	let santas = Array(...Array(nrOfSantas)).map(_=> ({x:0, y:0}));
 	addHouseAt(0,0);
