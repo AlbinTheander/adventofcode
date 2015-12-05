@@ -5,7 +5,7 @@ import {findKey} from '../lib/day4';
 
 describe('Day 4', () => {
 
-	describe('findKey', () => {
+	describe.skip('findKey', () => {
 		it('can find the key for "abcdef"', () => {
 			expect(findKey('abcdef')).to.equal(609043);
 		});

@@ -4,7 +4,8 @@ function main() {
 			let solution = require('./lib/day' + day);
 			solution.default();
 	    } catch(err) {
-	     // Ignore. Life goes on...
+        if (err.code !== 'MODULE_NOT_FOUND')
+          throw err;
 	    }
 	}
 }
