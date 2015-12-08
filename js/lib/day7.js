@@ -12,6 +12,7 @@ export default function day7() {
   context.reset();
   context.addFn(new Fn(`${originalA} -> b`));
   console.log('After rewiring, a has the value', context.getValue('a'));
+  console.log();
 }
 
 
