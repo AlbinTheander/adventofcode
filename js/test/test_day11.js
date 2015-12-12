@@ -3,7 +3,7 @@ import {expect} from 'chai';
 import {nextPw, isValidPw} from '../lib/day11';
 
 
-describe.only('Day 11', () => {
+describe('Day 11', () => {
 
   describe('nextPw', () => {
     it('can find the next pw', function() {
