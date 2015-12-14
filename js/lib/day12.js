@@ -10,6 +10,7 @@ export default function day12() {
   console.log('******* Day 12 *******');
   console.log("The sum of numbers in Santa's json is", sum);
   console.log("The sum of nun-red numbers are", sum2);
+  console.log();
 }
 
 

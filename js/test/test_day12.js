@@ -2,7 +2,7 @@ import {expect} from 'chai';
 
 import {findNumbers, sumAll} from '../lib/day12';
 
-describe.only('Day 12', () => {
+describe('Day 12', () => {
   describe('findNumbers', () => {
     it('returns an empty array if there are no numbers', () => {
       expect(findNumbers('albin')).to.eql([]);      
