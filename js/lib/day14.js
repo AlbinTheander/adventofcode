@@ -11,6 +11,7 @@ export default function day14() {
   console.log('******* Day 14 *******');
   console.log('After 2503 seconds,', leaderByDistance.name, 'has run', leaderByDistance.distance, 'km.');
   console.log('After the same time,', leaderByPoints.name, 'has', leaderByPoints.points, 'points.');
+  console.log();
 }
 
 
