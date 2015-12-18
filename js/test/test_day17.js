@@ -3,7 +3,7 @@ import {expect} from 'chai';
 import {combinations} from '../lib/day17';
 
 
-describe.only('Day 17', () => {
+describe('Day 17', () => {
   describe('combinations', () => {
     it('finds one combination of creating 0', () => {
       expect(combinations(0, [])).to.eql([0]);
